@@ -1,0 +1,11 @@
+framework module RealSDK {
+  umbrella header "RealSDK.h"
+  export *
+
+  module * { export * }
+}
+
+module RealSDK.Swift {
+  header "RealSDK-Swift.h"
+  requires objc
+}
