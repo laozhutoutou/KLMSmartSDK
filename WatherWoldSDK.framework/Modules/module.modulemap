@@ -1,0 +1,11 @@
+framework module WatherWoldSDK {
+  umbrella header "WatherWoldSDK.h"
+  export *
+
+  module * { export * }
+}
+
+module WatherWoldSDK.Swift {
+  header "WatherWoldSDK-Swift.h"
+  requires objc
+}
