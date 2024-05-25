@@ -7,148 +7,148 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E4018F852BF34242003F387F /* KLMSigActiveManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4018F842BF34242003F387F /* KLMSigActiveManager.swift */; };
-		E4018F8D2BF37037003F387F /* NetworkConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4018F8C2BF37037003F387F /* NetworkConnection.swift */; };
-		E41D84292BFAF640004E6FDF /* KLMSmartNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D84272BFAF640004E6FDF /* KLMSmartNode.swift */; };
-		E41D842A2BFAF640004E6FDF /* KLMSmartGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D84282BFAF640004E6FDF /* KLMSmartGroup.swift */; };
-		E41FF0722BF1B877001A9840 /* KLMSmartSDK.docc in Sources */ = {isa = PBXBuildFile; fileRef = E41FF0712BF1B877001A9840 /* KLMSmartSDK.docc */; };
-		E41FF0782BF1B877001A9840 /* KLMSmartSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E41FF06D2BF1B877001A9840 /* KLMSmartSDK.framework */; };
-		E41FF07D2BF1B877001A9840 /* KLMSmartSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41FF07C2BF1B877001A9840 /* KLMSmartSDKTests.swift */; };
-		E41FF0902BF1BC56001A9840 /* KLMSmartBleMesh.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41FF08F2BF1BC56001A9840 /* KLMSmartBleMesh.swift */; };
-		E41FF0922BF1BD6C001A9840 /* KLMSmartSIGMeshManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41FF0912BF1BD6C001A9840 /* KLMSmartSIGMeshManager.swift */; };
-		E41FF0942BF1BEE0001A9840 /* KLMSigMeshCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41FF0932BF1BEE0001A9840 /* KLMSigMeshCommand.swift */; };
-		E41FF0A22BF1C1EB001A9840 /* KLMError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41FF0A12BF1C1EB001A9840 /* KLMError.swift */; };
-		E41FF0A42BF1E1C3001A9840 /* KLMSigScanManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41FF0A32BF1E1C3001A9840 /* KLMSigScanManager.swift */; };
-		E41FF0AB2BF1E944001A9840 /* KLMSigConnectAndActiveManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41FF0A92BF1E944001A9840 /* KLMSigConnectAndActiveManager.swift */; };
-		E41FF0AE2BF1F248001A9840 /* KLMSigConnectManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41FF0AD2BF1F248001A9840 /* KLMSigConnectManager.swift */; };
-		E41FF0B02BF1FCDB001A9840 /* KLMProvisionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41FF0AF2BF1FCDB001A9840 /* KLMProvisionManager.swift */; };
-		E426D4B82BF4B29D0082B53A /* KLMTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = E426D4B72BF4B29D0082B53A /* KLMTool.swift */; };
-		F6C21BC6456C1031E965DB6E /* Pods_KLMSmartSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA1C943D284F755EA4A54311 /* Pods_KLMSmartSDK.framework */; };
+		256179DA3D542ADF35BEE136 /* Pods_KLMSmartSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A053AF1A73EAB701B8FB24A /* Pods_KLMSmartSDK.framework */; };
+		E40F0F692C01F157000FB548 /* KLMSmartSDK.docc in Sources */ = {isa = PBXBuildFile; fileRef = E40F0F682C01F157000FB548 /* KLMSmartSDK.docc */; };
+		E40F0F6F2C01F158000FB548 /* KLMSmartSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E40F0F642C01F157000FB548 /* KLMSmartSDK.framework */; };
+		E40F0F742C01F158000FB548 /* KLMSmartSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40F0F732C01F158000FB548 /* KLMSmartSDKTests.swift */; };
+		E40F0F8C2C01F1D0000FB548 /* KLMSigMeshCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40F0F7F2C01F1D0000FB548 /* KLMSigMeshCommand.swift */; };
+		E40F0F8D2C01F1D0000FB548 /* KLMSmartGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40F0F802C01F1D0000FB548 /* KLMSmartGroup.swift */; };
+		E40F0F8E2C01F1D0000FB548 /* KLMSmartBleMesh.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40F0F812C01F1D0000FB548 /* KLMSmartBleMesh.swift */; };
+		E40F0F8F2C01F1D0000FB548 /* KLMSigConnectAndActiveManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40F0F822C01F1D0000FB548 /* KLMSigConnectAndActiveManager.swift */; };
+		E40F0F902C01F1D0000FB548 /* KLMSigConnectManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40F0F832C01F1D0000FB548 /* KLMSigConnectManager.swift */; };
+		E40F0F912C01F1D0000FB548 /* KLMProvisionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40F0F842C01F1D0000FB548 /* KLMProvisionManager.swift */; };
+		E40F0F922C01F1D0000FB548 /* KLMSmartSIGMeshManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40F0F852C01F1D0000FB548 /* KLMSmartSIGMeshManager.swift */; };
+		E40F0F932C01F1D0000FB548 /* KLMTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40F0F862C01F1D0000FB548 /* KLMTool.swift */; };
+		E40F0F942C01F1D0000FB548 /* KLMError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40F0F872C01F1D0000FB548 /* KLMError.swift */; };
+		E40F0F952C01F1D0000FB548 /* KLMSmartNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40F0F882C01F1D0000FB548 /* KLMSmartNode.swift */; };
+		E40F0F962C01F1D0000FB548 /* KLMSigScanManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40F0F892C01F1D0000FB548 /* KLMSigScanManager.swift */; };
+		E40F0F972C01F1D0000FB548 /* KLMSigActiveManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40F0F8A2C01F1D0000FB548 /* KLMSigActiveManager.swift */; };
+		E40F0F982C01F1D0000FB548 /* NetworkConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40F0F8B2C01F1D0000FB548 /* NetworkConnection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E41FF0792BF1B877001A9840 /* PBXContainerItemProxy */ = {
+		E40F0F702C01F158000FB548 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E41FF0642BF1B877001A9840 /* Project object */;
+			containerPortal = E40F0F5B2C01F157000FB548 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E41FF06C2BF1B877001A9840;
+			remoteGlobalIDString = E40F0F632C01F157000FB548;
 			remoteInfo = KLMSmartSDK;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		63FB5256E2BD84C395FB83D6 /* Pods-KLMSmartSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KLMSmartSDK.release.xcconfig"; path = "Target Support Files/Pods-KLMSmartSDK/Pods-KLMSmartSDK.release.xcconfig"; sourceTree = "<group>"; };
-		E4018F842BF34242003F387F /* KLMSigActiveManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLMSigActiveManager.swift; sourceTree = "<group>"; };
-		E4018F8C2BF37037003F387F /* NetworkConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkConnection.swift; sourceTree = "<group>"; };
-		E41D84272BFAF640004E6FDF /* KLMSmartNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLMSmartNode.swift; sourceTree = "<group>"; };
-		E41D84282BFAF640004E6FDF /* KLMSmartGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLMSmartGroup.swift; sourceTree = "<group>"; };
-		E41FF06D2BF1B877001A9840 /* KLMSmartSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KLMSmartSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E41FF0712BF1B877001A9840 /* KLMSmartSDK.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = KLMSmartSDK.docc; sourceTree = "<group>"; };
-		E41FF0772BF1B877001A9840 /* KLMSmartSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KLMSmartSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E41FF07C2BF1B877001A9840 /* KLMSmartSDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLMSmartSDKTests.swift; sourceTree = "<group>"; };
-		E41FF08F2BF1BC56001A9840 /* KLMSmartBleMesh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLMSmartBleMesh.swift; sourceTree = "<group>"; };
-		E41FF0912BF1BD6C001A9840 /* KLMSmartSIGMeshManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLMSmartSIGMeshManager.swift; sourceTree = "<group>"; };
-		E41FF0932BF1BEE0001A9840 /* KLMSigMeshCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLMSigMeshCommand.swift; sourceTree = "<group>"; };
-		E41FF0A12BF1C1EB001A9840 /* KLMError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLMError.swift; sourceTree = "<group>"; };
-		E41FF0A32BF1E1C3001A9840 /* KLMSigScanManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLMSigScanManager.swift; sourceTree = "<group>"; };
-		E41FF0A92BF1E944001A9840 /* KLMSigConnectAndActiveManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLMSigConnectAndActiveManager.swift; sourceTree = "<group>"; };
-		E41FF0AD2BF1F248001A9840 /* KLMSigConnectManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLMSigConnectManager.swift; sourceTree = "<group>"; };
-		E41FF0AF2BF1FCDB001A9840 /* KLMProvisionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLMProvisionManager.swift; sourceTree = "<group>"; };
-		E426D4B72BF4B29D0082B53A /* KLMTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLMTool.swift; sourceTree = "<group>"; };
-		F864B46D27A1BC08473D3B07 /* Pods-KLMSmartSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KLMSmartSDK.debug.xcconfig"; path = "Target Support Files/Pods-KLMSmartSDK/Pods-KLMSmartSDK.debug.xcconfig"; sourceTree = "<group>"; };
-		FA1C943D284F755EA4A54311 /* Pods_KLMSmartSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KLMSmartSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CDA85D21478ED71EA67F71E /* Pods-KLMSmartSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KLMSmartSDK.debug.xcconfig"; path = "Target Support Files/Pods-KLMSmartSDK/Pods-KLMSmartSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		6A053AF1A73EAB701B8FB24A /* Pods_KLMSmartSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KLMSmartSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E40F0F642C01F157000FB548 /* KLMSmartSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KLMSmartSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E40F0F682C01F157000FB548 /* KLMSmartSDK.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = KLMSmartSDK.docc; sourceTree = "<group>"; };
+		E40F0F6E2C01F158000FB548 /* KLMSmartSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KLMSmartSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E40F0F732C01F158000FB548 /* KLMSmartSDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLMSmartSDKTests.swift; sourceTree = "<group>"; };
+		E40F0F7F2C01F1D0000FB548 /* KLMSigMeshCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLMSigMeshCommand.swift; sourceTree = "<group>"; };
+		E40F0F802C01F1D0000FB548 /* KLMSmartGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLMSmartGroup.swift; sourceTree = "<group>"; };
+		E40F0F812C01F1D0000FB548 /* KLMSmartBleMesh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLMSmartBleMesh.swift; sourceTree = "<group>"; };
+		E40F0F822C01F1D0000FB548 /* KLMSigConnectAndActiveManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLMSigConnectAndActiveManager.swift; sourceTree = "<group>"; };
+		E40F0F832C01F1D0000FB548 /* KLMSigConnectManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLMSigConnectManager.swift; sourceTree = "<group>"; };
+		E40F0F842C01F1D0000FB548 /* KLMProvisionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLMProvisionManager.swift; sourceTree = "<group>"; };
+		E40F0F852C01F1D0000FB548 /* KLMSmartSIGMeshManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLMSmartSIGMeshManager.swift; sourceTree = "<group>"; };
+		E40F0F862C01F1D0000FB548 /* KLMTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLMTool.swift; sourceTree = "<group>"; };
+		E40F0F872C01F1D0000FB548 /* KLMError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLMError.swift; sourceTree = "<group>"; };
+		E40F0F882C01F1D0000FB548 /* KLMSmartNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLMSmartNode.swift; sourceTree = "<group>"; };
+		E40F0F892C01F1D0000FB548 /* KLMSigScanManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLMSigScanManager.swift; sourceTree = "<group>"; };
+		E40F0F8A2C01F1D0000FB548 /* KLMSigActiveManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLMSigActiveManager.swift; sourceTree = "<group>"; };
+		E40F0F8B2C01F1D0000FB548 /* NetworkConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkConnection.swift; sourceTree = "<group>"; };
+		EDDC1182E4F29DD1B13A78E6 /* Pods-KLMSmartSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KLMSmartSDK.release.xcconfig"; path = "Target Support Files/Pods-KLMSmartSDK/Pods-KLMSmartSDK.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E41FF06A2BF1B877001A9840 /* Frameworks */ = {
+		E40F0F612C01F157000FB548 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6C21BC6456C1031E965DB6E /* Pods_KLMSmartSDK.framework in Frameworks */,
+				256179DA3D542ADF35BEE136 /* Pods_KLMSmartSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E41FF0742BF1B877001A9840 /* Frameworks */ = {
+		E40F0F6B2C01F158000FB548 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E41FF0782BF1B877001A9840 /* KLMSmartSDK.framework in Frameworks */,
+				E40F0F6F2C01F158000FB548 /* KLMSmartSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		39528322F9C500E046854938 /* Pods */ = {
+		50A7524C8934C6D5FABBB85A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F864B46D27A1BC08473D3B07 /* Pods-KLMSmartSDK.debug.xcconfig */,
-				63FB5256E2BD84C395FB83D6 /* Pods-KLMSmartSDK.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
-		D3C84439AC1020305051745B /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				FA1C943D284F755EA4A54311 /* Pods_KLMSmartSDK.framework */,
+				6A053AF1A73EAB701B8FB24A /* Pods_KLMSmartSDK.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E41FF0632BF1B877001A9840 = {
+		775C846074D5D47518980D57 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E41FF06F2BF1B877001A9840 /* KLMSmartSDK */,
-				E41FF07B2BF1B877001A9840 /* KLMSmartSDKTests */,
-				E41FF06E2BF1B877001A9840 /* Products */,
-				39528322F9C500E046854938 /* Pods */,
-				D3C84439AC1020305051745B /* Frameworks */,
+				2CDA85D21478ED71EA67F71E /* Pods-KLMSmartSDK.debug.xcconfig */,
+				EDDC1182E4F29DD1B13A78E6 /* Pods-KLMSmartSDK.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E40F0F5A2C01F157000FB548 = {
+			isa = PBXGroup;
+			children = (
+				E40F0F662C01F157000FB548 /* KLMSmartSDK */,
+				E40F0F722C01F158000FB548 /* KLMSmartSDKTests */,
+				E40F0F652C01F157000FB548 /* Products */,
+				775C846074D5D47518980D57 /* Pods */,
+				50A7524C8934C6D5FABBB85A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		E41FF06E2BF1B877001A9840 /* Products */ = {
+		E40F0F652C01F157000FB548 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E41FF06D2BF1B877001A9840 /* KLMSmartSDK.framework */,
-				E41FF0772BF1B877001A9840 /* KLMSmartSDKTests.xctest */,
+				E40F0F642C01F157000FB548 /* KLMSmartSDK.framework */,
+				E40F0F6E2C01F158000FB548 /* KLMSmartSDKTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E41FF06F2BF1B877001A9840 /* KLMSmartSDK */ = {
+		E40F0F662C01F157000FB548 /* KLMSmartSDK */ = {
 			isa = PBXGroup;
 			children = (
-				E41FF08C2BF1BA8A001A9840 /* Classes */,
-				E41FF0712BF1B877001A9840 /* KLMSmartSDK.docc */,
+				E40F0F7E2C01F1D0000FB548 /* Classes */,
+				E40F0F682C01F157000FB548 /* KLMSmartSDK.docc */,
 			);
 			path = KLMSmartSDK;
 			sourceTree = "<group>";
 		};
-		E41FF07B2BF1B877001A9840 /* KLMSmartSDKTests */ = {
+		E40F0F722C01F158000FB548 /* KLMSmartSDKTests */ = {
 			isa = PBXGroup;
 			children = (
-				E41FF07C2BF1B877001A9840 /* KLMSmartSDKTests.swift */,
+				E40F0F732C01F158000FB548 /* KLMSmartSDKTests.swift */,
 			);
 			path = KLMSmartSDKTests;
 			sourceTree = "<group>";
 		};
-		E41FF08C2BF1BA8A001A9840 /* Classes */ = {
+		E40F0F7E2C01F1D0000FB548 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				E41FF08F2BF1BC56001A9840 /* KLMSmartBleMesh.swift */,
-				E41FF0912BF1BD6C001A9840 /* KLMSmartSIGMeshManager.swift */,
-				E41FF0A32BF1E1C3001A9840 /* KLMSigScanManager.swift */,
-				E41FF0AD2BF1F248001A9840 /* KLMSigConnectManager.swift */,
-				E41FF0A92BF1E944001A9840 /* KLMSigConnectAndActiveManager.swift */,
-				E4018F842BF34242003F387F /* KLMSigActiveManager.swift */,
-				E41FF0AF2BF1FCDB001A9840 /* KLMProvisionManager.swift */,
-				E4018F8C2BF37037003F387F /* NetworkConnection.swift */,
-				E41FF0932BF1BEE0001A9840 /* KLMSigMeshCommand.swift */,
-				E41D84282BFAF640004E6FDF /* KLMSmartGroup.swift */,
-				E41D84272BFAF640004E6FDF /* KLMSmartNode.swift */,
-				E426D4B72BF4B29D0082B53A /* KLMTool.swift */,
-				E41FF0A12BF1C1EB001A9840 /* KLMError.swift */,
+				E40F0F7F2C01F1D0000FB548 /* KLMSigMeshCommand.swift */,
+				E40F0F802C01F1D0000FB548 /* KLMSmartGroup.swift */,
+				E40F0F812C01F1D0000FB548 /* KLMSmartBleMesh.swift */,
+				E40F0F822C01F1D0000FB548 /* KLMSigConnectAndActiveManager.swift */,
+				E40F0F832C01F1D0000FB548 /* KLMSigConnectManager.swift */,
+				E40F0F842C01F1D0000FB548 /* KLMProvisionManager.swift */,
+				E40F0F852C01F1D0000FB548 /* KLMSmartSIGMeshManager.swift */,
+				E40F0F862C01F1D0000FB548 /* KLMTool.swift */,
+				E40F0F872C01F1D0000FB548 /* KLMError.swift */,
+				E40F0F882C01F1D0000FB548 /* KLMSmartNode.swift */,
+				E40F0F892C01F1D0000FB548 /* KLMSigScanManager.swift */,
+				E40F0F8A2C01F1D0000FB548 /* KLMSigActiveManager.swift */,
+				E40F0F8B2C01F1D0000FB548 /* NetworkConnection.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -156,7 +156,7 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		E41FF0682BF1B877001A9840 /* Headers */ = {
+		E40F0F5F2C01F157000FB548 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -166,15 +166,15 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		E41FF06C2BF1B877001A9840 /* KLMSmartSDK */ = {
+		E40F0F632C01F157000FB548 /* KLMSmartSDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E41FF0812BF1B877001A9840 /* Build configuration list for PBXNativeTarget "KLMSmartSDK" */;
+			buildConfigurationList = E40F0F782C01F158000FB548 /* Build configuration list for PBXNativeTarget "KLMSmartSDK" */;
 			buildPhases = (
-				BA0AB50AC88596879586560C /* [CP] Check Pods Manifest.lock */,
-				E41FF0682BF1B877001A9840 /* Headers */,
-				E41FF0692BF1B877001A9840 /* Sources */,
-				E41FF06A2BF1B877001A9840 /* Frameworks */,
-				E41FF06B2BF1B877001A9840 /* Resources */,
+				E22BF6C76362F3850B4F2421 /* [CP] Check Pods Manifest.lock */,
+				E40F0F5F2C01F157000FB548 /* Headers */,
+				E40F0F602C01F157000FB548 /* Sources */,
+				E40F0F612C01F157000FB548 /* Frameworks */,
+				E40F0F622C01F157000FB548 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -182,46 +182,46 @@
 			);
 			name = KLMSmartSDK;
 			productName = KLMSmartSDK;
-			productReference = E41FF06D2BF1B877001A9840 /* KLMSmartSDK.framework */;
+			productReference = E40F0F642C01F157000FB548 /* KLMSmartSDK.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E41FF0762BF1B877001A9840 /* KLMSmartSDKTests */ = {
+		E40F0F6D2C01F158000FB548 /* KLMSmartSDKTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E41FF0842BF1B877001A9840 /* Build configuration list for PBXNativeTarget "KLMSmartSDKTests" */;
+			buildConfigurationList = E40F0F7B2C01F158000FB548 /* Build configuration list for PBXNativeTarget "KLMSmartSDKTests" */;
 			buildPhases = (
-				E41FF0732BF1B877001A9840 /* Sources */,
-				E41FF0742BF1B877001A9840 /* Frameworks */,
-				E41FF0752BF1B877001A9840 /* Resources */,
+				E40F0F6A2C01F158000FB548 /* Sources */,
+				E40F0F6B2C01F158000FB548 /* Frameworks */,
+				E40F0F6C2C01F158000FB548 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E41FF07A2BF1B877001A9840 /* PBXTargetDependency */,
+				E40F0F712C01F158000FB548 /* PBXTargetDependency */,
 			);
 			name = KLMSmartSDKTests;
 			productName = KLMSmartSDKTests;
-			productReference = E41FF0772BF1B877001A9840 /* KLMSmartSDKTests.xctest */;
+			productReference = E40F0F6E2C01F158000FB548 /* KLMSmartSDKTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E41FF0642BF1B877001A9840 /* Project object */ = {
+		E40F0F5B2C01F157000FB548 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					E41FF06C2BF1B877001A9840 = {
+					E40F0F632C01F157000FB548 = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
-					E41FF0762BF1B877001A9840 = {
+					E40F0F6D2C01F158000FB548 = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
 				};
 			};
-			buildConfigurationList = E41FF0672BF1B877001A9840 /* Build configuration list for PBXProject "KLMSmartSDK" */;
+			buildConfigurationList = E40F0F5E2C01F157000FB548 /* Build configuration list for PBXProject "KLMSmartSDK" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -229,26 +229,26 @@
 				en,
 				Base,
 			);
-			mainGroup = E41FF0632BF1B877001A9840;
-			productRefGroup = E41FF06E2BF1B877001A9840 /* Products */;
+			mainGroup = E40F0F5A2C01F157000FB548;
+			productRefGroup = E40F0F652C01F157000FB548 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E41FF06C2BF1B877001A9840 /* KLMSmartSDK */,
-				E41FF0762BF1B877001A9840 /* KLMSmartSDKTests */,
+				E40F0F632C01F157000FB548 /* KLMSmartSDK */,
+				E40F0F6D2C01F158000FB548 /* KLMSmartSDKTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E41FF06B2BF1B877001A9840 /* Resources */ = {
+		E40F0F622C01F157000FB548 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E41FF0752BF1B877001A9840 /* Resources */ = {
+		E40F0F6C2C01F158000FB548 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -258,7 +258,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		BA0AB50AC88596879586560C /* [CP] Check Pods Manifest.lock */ = {
+		E22BF6C76362F3850B4F2421 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -283,47 +283,47 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E41FF0692BF1B877001A9840 /* Sources */ = {
+		E40F0F602C01F157000FB548 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E41FF0B02BF1FCDB001A9840 /* KLMProvisionManager.swift in Sources */,
-				E41FF0722BF1B877001A9840 /* KLMSmartSDK.docc in Sources */,
-				E41FF0AE2BF1F248001A9840 /* KLMSigConnectManager.swift in Sources */,
-				E41FF0AB2BF1E944001A9840 /* KLMSigConnectAndActiveManager.swift in Sources */,
-				E41D84292BFAF640004E6FDF /* KLMSmartNode.swift in Sources */,
-				E426D4B82BF4B29D0082B53A /* KLMTool.swift in Sources */,
-				E41D842A2BFAF640004E6FDF /* KLMSmartGroup.swift in Sources */,
-				E41FF0A22BF1C1EB001A9840 /* KLMError.swift in Sources */,
-				E41FF0942BF1BEE0001A9840 /* KLMSigMeshCommand.swift in Sources */,
-				E4018F852BF34242003F387F /* KLMSigActiveManager.swift in Sources */,
-				E41FF0902BF1BC56001A9840 /* KLMSmartBleMesh.swift in Sources */,
-				E41FF0922BF1BD6C001A9840 /* KLMSmartSIGMeshManager.swift in Sources */,
-				E41FF0A42BF1E1C3001A9840 /* KLMSigScanManager.swift in Sources */,
-				E4018F8D2BF37037003F387F /* NetworkConnection.swift in Sources */,
+				E40F0F692C01F157000FB548 /* KLMSmartSDK.docc in Sources */,
+				E40F0F942C01F1D0000FB548 /* KLMError.swift in Sources */,
+				E40F0F902C01F1D0000FB548 /* KLMSigConnectManager.swift in Sources */,
+				E40F0F8D2C01F1D0000FB548 /* KLMSmartGroup.swift in Sources */,
+				E40F0F982C01F1D0000FB548 /* NetworkConnection.swift in Sources */,
+				E40F0F8C2C01F1D0000FB548 /* KLMSigMeshCommand.swift in Sources */,
+				E40F0F962C01F1D0000FB548 /* KLMSigScanManager.swift in Sources */,
+				E40F0F8E2C01F1D0000FB548 /* KLMSmartBleMesh.swift in Sources */,
+				E40F0F952C01F1D0000FB548 /* KLMSmartNode.swift in Sources */,
+				E40F0F922C01F1D0000FB548 /* KLMSmartSIGMeshManager.swift in Sources */,
+				E40F0F972C01F1D0000FB548 /* KLMSigActiveManager.swift in Sources */,
+				E40F0F912C01F1D0000FB548 /* KLMProvisionManager.swift in Sources */,
+				E40F0F932C01F1D0000FB548 /* KLMTool.swift in Sources */,
+				E40F0F8F2C01F1D0000FB548 /* KLMSigConnectAndActiveManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E41FF0732BF1B877001A9840 /* Sources */ = {
+		E40F0F6A2C01F158000FB548 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E41FF07D2BF1B877001A9840 /* KLMSmartSDKTests.swift in Sources */,
+				E40F0F742C01F158000FB548 /* KLMSmartSDKTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		E41FF07A2BF1B877001A9840 /* PBXTargetDependency */ = {
+		E40F0F712C01F158000FB548 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E41FF06C2BF1B877001A9840 /* KLMSmartSDK */;
-			targetProxy = E41FF0792BF1B877001A9840 /* PBXContainerItemProxy */;
+			target = E40F0F632C01F157000FB548 /* KLMSmartSDK */;
+			targetProxy = E40F0F702C01F158000FB548 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		E41FF07F2BF1B877001A9840 /* Debug */ = {
+		E40F0F762C01F158000FB548 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -389,7 +389,7 @@
 			};
 			name = Debug;
 		};
-		E41FF0802BF1B877001A9840 /* Release */ = {
+		E40F0F772C01F158000FB548 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -448,13 +448,12 @@
 			};
 			name = Release;
 		};
-		E41FF0822BF1B877001A9840 /* Debug */ = {
+		E40F0F792C01F158000FB548 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F864B46D27A1BC08473D3B07 /* Pods-KLMSmartSDK.debug.xcconfig */;
+			baseConfigurationReference = 2CDA85D21478ED71EA67F71E /* Pods-KLMSmartSDK.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEAD_CODE_STRIPPING = NO;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = AV8WJAN52Z;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -482,13 +481,12 @@
 			};
 			name = Debug;
 		};
-		E41FF0832BF1B877001A9840 /* Release */ = {
+		E40F0F7A2C01F158000FB548 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 63FB5256E2BD84C395FB83D6 /* Pods-KLMSmartSDK.release.xcconfig */;
+			baseConfigurationReference = EDDC1182E4F29DD1B13A78E6 /* Pods-KLMSmartSDK.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEAD_CODE_STRIPPING = NO;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = AV8WJAN52Z;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -516,7 +514,7 @@
 			};
 			name = Release;
 		};
-		E41FF0852BF1B877001A9840 /* Debug */ = {
+		E40F0F7C2C01F158000FB548 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -533,7 +531,7 @@
 			};
 			name = Debug;
 		};
-		E41FF0862BF1B877001A9840 /* Release */ = {
+		E40F0F7D2C01F158000FB548 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -553,34 +551,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E41FF0672BF1B877001A9840 /* Build configuration list for PBXProject "KLMSmartSDK" */ = {
+		E40F0F5E2C01F157000FB548 /* Build configuration list for PBXProject "KLMSmartSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E41FF07F2BF1B877001A9840 /* Debug */,
-				E41FF0802BF1B877001A9840 /* Release */,
+				E40F0F762C01F158000FB548 /* Debug */,
+				E40F0F772C01F158000FB548 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E41FF0812BF1B877001A9840 /* Build configuration list for PBXNativeTarget "KLMSmartSDK" */ = {
+		E40F0F782C01F158000FB548 /* Build configuration list for PBXNativeTarget "KLMSmartSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E41FF0822BF1B877001A9840 /* Debug */,
-				E41FF0832BF1B877001A9840 /* Release */,
+				E40F0F792C01F158000FB548 /* Debug */,
+				E40F0F7A2C01F158000FB548 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E41FF0842BF1B877001A9840 /* Build configuration list for PBXNativeTarget "KLMSmartSDKTests" */ = {
+		E40F0F7B2C01F158000FB548 /* Build configuration list for PBXNativeTarget "KLMSmartSDKTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E41FF0852BF1B877001A9840 /* Debug */,
-				E41FF0862BF1B877001A9840 /* Release */,
+				E40F0F7C2C01F158000FB548 /* Debug */,
+				E40F0F7D2C01F158000FB548 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = E41FF0642BF1B877001A9840 /* Project object */;
+	rootObject = E40F0F5B2C01F157000FB548 /* Project object */;
 }
