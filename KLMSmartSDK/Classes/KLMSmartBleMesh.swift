@@ -13,7 +13,7 @@ public class KLMSmartBleMesh: NSObject {
     var meshNetworkManager: MeshNetworkManager!
     var connection: NetworkConnection!
     
-    static let shared = KLMSmartBleMesh()
+    public static let shared = KLMSmartBleMesh()
     private override init(){
         super.init()
         setUpNordic()
@@ -119,17 +119,6 @@ extension KLMSmartBleMesh {
     private func meshNetworkDidChange() {
         connection?.close()
         let meshNetwork = meshNetworkManager.meshNetwork!
-        
-        // Set up local Elements on the phone.
-//        let element0 = Element(name: "Primary Element", location: .first, models: [
-//            
-//            Model(vendorModelId: .simpleOnOffModelId,
-//                  companyId: .nordicSemiconductorCompanyId,
-//                  delegate: SimpleOnOffClientDelegate())
-//        ])
-//
-//        meshNetworkManager.localElements = [element0]
-        
         connection = NetworkConnection(to: meshNetwork)
         connection!.dataDelegate = meshNetworkManager
 //        connection!.logger = self

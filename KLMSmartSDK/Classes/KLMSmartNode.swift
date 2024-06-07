@@ -37,7 +37,7 @@ public class KLMSmartNode: NSObject {
     var currentNode: Node?
     var command: KLMSigMeshCommand?
     
-    static let sharedInstacnce = KLMSmartNode()
+    static let shared = KLMSmartNode()
     private override init(){
         super.init()
     }

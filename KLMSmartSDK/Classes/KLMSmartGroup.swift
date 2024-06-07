@@ -10,7 +10,7 @@ import nRFMeshProvision
 
 public class KLMSmartGroup: NSObject {
     
-    static let sharedInstacnce = KLMSmartGroup()
+    static let shared = KLMSmartGroup()
     private override init(){
         super.init()
     }

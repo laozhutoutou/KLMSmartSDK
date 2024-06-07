@@ -14,7 +14,7 @@ protocol KLMSmartSIGMeshManagerDelegate: AnyObject {
 
 public class KLMSmartSIGMeshManager: NSObject {
     
-    static let shared = KLMSmartSIGMeshManager()
+    public static let shared = KLMSmartSIGMeshManager()
     private override init(){}
     
     weak var delegate:  KLMSmartSIGMeshManagerDelegate?

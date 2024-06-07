@@ -136,16 +136,16 @@
 		E40F0F7E2C01F1D0000FB548 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				E40F0F7F2C01F1D0000FB548 /* KLMSigMeshCommand.swift */,
-				E40F0F802C01F1D0000FB548 /* KLMSmartGroup.swift */,
 				E40F0F812C01F1D0000FB548 /* KLMSmartBleMesh.swift */,
+				E40F0F852C01F1D0000FB548 /* KLMSmartSIGMeshManager.swift */,
+				E40F0F882C01F1D0000FB548 /* KLMSmartNode.swift */,
+				E40F0F802C01F1D0000FB548 /* KLMSmartGroup.swift */,
+				E40F0F7F2C01F1D0000FB548 /* KLMSigMeshCommand.swift */,
 				E40F0F822C01F1D0000FB548 /* KLMSigConnectAndActiveManager.swift */,
 				E40F0F832C01F1D0000FB548 /* KLMSigConnectManager.swift */,
 				E40F0F842C01F1D0000FB548 /* KLMProvisionManager.swift */,
-				E40F0F852C01F1D0000FB548 /* KLMSmartSIGMeshManager.swift */,
 				E40F0F862C01F1D0000FB548 /* KLMTool.swift */,
 				E40F0F872C01F1D0000FB548 /* KLMError.swift */,
-				E40F0F882C01F1D0000FB548 /* KLMSmartNode.swift */,
 				E40F0F892C01F1D0000FB548 /* KLMSigScanManager.swift */,
 				E40F0F8A2C01F1D0000FB548 /* KLMSigActiveManager.swift */,
 				E40F0F8B2C01F1D0000FB548 /* NetworkConnection.swift */,
