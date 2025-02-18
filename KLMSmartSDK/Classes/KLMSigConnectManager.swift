@@ -16,15 +16,16 @@ class KLMSigConnectManager: NSObject {
     var command: KLMSigMeshCommand?
     var gattBearer: PBGattBearer?
     
-    ///开始连接
+    ///start connect
     func startConnect(discoveredPeripheral: DiscoveredPeripheral, commandResult: @escaping CommandResult) {
 
         let command = KLMSigMeshCommand()
         command.commandResult = commandResult
+        command.timeout = 15
         self.command = command
         command.startTimer { [weak self] error in
             guard let self = self else { return }
-            ///停止连接
+            ///timeout stop connect
             stopConnectDevice()
             DispatchQueue.main.async {
                 commandResult(false, error)
@@ -38,7 +39,7 @@ class KLMSigConnectManager: NSObject {
         KLMSigScanManager.shared.stopScanning()
     }
     
-    ///停止连接
+    ///stop connect
     func stopConnectDevice() {
         gattBearer?.delegate = nil
         gattBearer?.close()

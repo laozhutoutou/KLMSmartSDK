@@ -64,11 +64,11 @@ public class KLMSmartBleMesh: NSObject {
         }
     }
     
-    public func export() -> Data {
-        let manager = KLMSmartBleMesh.shared.meshNetworkManager!
-        if manager.save() {}
-        return manager.export(.full)
-    }
+//    public func export() -> Data {
+//        let manager = KLMSmartBleMesh.shared.meshNetworkManager!
+//        if manager.save() {}
+//        return manager.export(.full)
+//    }
     
     public func editProvisionerUnicastAddress(newAddress: Address) {
         let manager = KLMSmartBleMesh.shared.meshNetworkManager!

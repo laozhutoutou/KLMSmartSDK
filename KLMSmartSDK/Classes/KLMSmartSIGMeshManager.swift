@@ -19,39 +19,27 @@ public class KLMSmartSIGMeshManager: NSObject {
     
     weak var delegate:  KLMSmartSIGMeshManagerDelegate?
     
+    /// 扫描蓝牙设备
+    /// - Parameters:
+    ///   - scanDevice: 扫描到的设备，用于设备连接和配网
+    ///   - commandResult: 扫描结果
     public static func startSearch(scanDevice: @escaping ScanDevice, commandResult: @escaping CommandResult) {
         KLMSigScanManager.shared.startScan(scanDevice: scanDevice, commandResult: commandResult)
     }
     
+    /// 停止扫描
     public static func stopScanning() {
         KLMSigScanManager.shared.stopScanning()
     }
     
-    public static func startActive(devices: [DiscoveredPeripheral], activeSuccess: @escaping ActiveSuccess, activeFailure: @escaping ActiveFailure, didConnectDevice: @escaping DidConnectDevice, allFinish: @escaping AllFinish) {
-        KLMSigConnectAndActiveManager.shared.startConnectAndActive(devices: devices, activeSuccess: activeSuccess, activeFailure: activeFailure, didConnectDevice: didConnectDevice, allFinish: allFinish)
-    }
-    
-    public static func createGroup(groupName: String) -> Address? {
-        let manager = KLMSmartBleMesh.shared.meshNetworkManager!
-        if let network = manager.meshNetwork,
-           let localProvisioner = network.localProvisioner {
-            if let automaticAddress = network.nextAvailableGroupAddress(for: localProvisioner) {
-                let address = MeshAddress(automaticAddress)
-                let group = try? Group(name: groupName, address: address)
-                try? network.add(group: group!)
-                if manager.save() {
-                    return automaticAddress
-                }
+    public static func startActive(device: DiscoveredPeripheral, unicastAddress: UInt16? = nil, activeSuccess: @escaping ActiveSuccess, activeFailure: @escaping ActiveFailure) {
+        KLMSigConnectManager.shared.startConnect(discoveredPeripheral: device) { isSuccess, error in
+            if isSuccess {
+                ///连接成功，开始配网
+                KLMSigActiveManager.shared.startActive(discoveredPeripheral: device, gattBearer: KLMSigConnectManager.shared.gattBearer!, unicastAddress: unicastAddress, activeSuccess: activeSuccess, activeFailure: activeFailure)
+            } else {
+                activeFailure(device, error)
             }
-        }
-        return nil
-    }
-    
-    public static func remove(group: Group) {
-        let manager = KLMSmartBleMesh.shared.meshNetworkManager!
-        let network = manager.meshNetwork!
-        try? network.remove(group: group)
-        if manager.save() {
         }
     }
     

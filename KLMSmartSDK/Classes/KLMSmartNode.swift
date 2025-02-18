@@ -207,7 +207,7 @@ public class KLMSmartNode: NSObject {
         //返回成功也要卡住一些错误数据
         switch dpData {
         case 12:
-            if value.count > 6 { ///数据有误
+            if value.count > 7 { ///数据有误
                 var err = KLMMessageError(errorCode: Int(status), dpId: Int(dpData))
                 let errorInfo = NSLocalizedString("The device do not support", comment: "")
                 err.error = KLMError.error(errorInfo)

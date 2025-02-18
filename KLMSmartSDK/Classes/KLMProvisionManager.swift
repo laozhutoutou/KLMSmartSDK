@@ -22,11 +22,13 @@ class KLMProvisionManager: NSObject {
     /// 配网设备
     var discoveredPeripheral: DiscoveredPeripheral!
     weak var delegate:  KLMProvisionManagerDelegate?
+    private var unicastAddress: UInt16?
     
     //单例
-    init(discoveredPeripheral: DiscoveredPeripheral, bearer: ProvisioningBearer) {
+    init(discoveredPeripheral: DiscoveredPeripheral, bearer: ProvisioningBearer, unicastAddress: UInt16? = nil) {
         super.init()
         self.discoveredPeripheral = discoveredPeripheral
+        self.unicastAddress = unicastAddress
         self.bearer = bearer
         self.bearer.delegate = self
     }
@@ -70,6 +72,9 @@ extension KLMProvisionManager: ProvisioningDelegate {
                 provisioningManager.networkKey = networkKey
             }
             
+            if let unicastAddress = unicastAddress {
+                self.provisioningManager.unicastAddress = unicastAddress
+            }
             do {
                 try self.provisioningManager.provision(usingAlgorithm:       .fipsP256EllipticCurve,
                                                        publicKey:            .noOobPublicKey,

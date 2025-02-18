@@ -31,8 +31,15 @@ class KLMSigActiveManager: NSObject {
     ///记录设备是否需要扫描
     private var isNeedScanning: Bool = false
     
-    ///开始配网
-    func startActive(discoveredPeripheral: DiscoveredPeripheral, gattBearer: PBGattBearer, activeSuccess: @escaping ActiveSuccess, activeFailure: @escaping ActiveFailure) {
+    /// 开始配网
+    /// - Parameters:
+    ///   - discoveredPeripheral: unActive device
+    ///   - gattBearer: KLMSigConnectManager.shared.gattBearer
+    ///   - unicastAddress: allocatedUnicastRange 范围中, 是否需要手动分配地址，如果是多人添加配置设备，需要传入
+    ///   - activeSuccess: 成功
+    ///   - activeFailure: 失败
+    
+    func startActive(discoveredPeripheral: DiscoveredPeripheral, gattBearer: PBGattBearer, unicastAddress: UInt16? = nil, activeSuccess: @escaping ActiveSuccess, activeFailure: @escaping ActiveFailure) {
         
         let command = KLMSigMeshCommand()
         command.activeSuccess = activeSuccess
@@ -52,7 +59,7 @@ class KLMSigActiveManager: NSObject {
         self.discoveredPeripheral = discoveredPeripheral
         self.gattBearer = gattBearer
         
-        let provisonManager = KLMProvisionManager.init(discoveredPeripheral: discoveredPeripheral, bearer: gattBearer)
+        let provisonManager = KLMProvisionManager.init(discoveredPeripheral: discoveredPeripheral, bearer: gattBearer, unicastAddress: unicastAddress)
         provisonManager.delegate = self
         provisonManager.identify()
         self.provisonManager = provisonManager
@@ -276,11 +283,11 @@ extension KLMSigActiveManager: MeshNetworkDelegate {
             self.addAppkeyToNode(node: self.currentNode)
             return
             
-        case _ as ConfigModelAppStatus:
+        case let status as ConfigModelAppStatus:
             
-//            currentBindModelIndex += 1
-//            ///继续绑定下一个model
-//            nextModel()
+            if status.status == .success {
+                deviceConfigSuccess()
+            }
             
             return
         default:
